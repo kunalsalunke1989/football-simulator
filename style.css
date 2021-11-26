@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh; /*Page takes full height of the screen*/
+    background-color: #ffffff;
+    background-image: url("football_field.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    align-items: center; /*Align vertically*/
+    justify-content: center; /*Align horizontally*/
+}
+
+.scoreboard{
+    width: 50%;
+    max-width: 900px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+    font-size: 2rem;
+}
+
+.score{
+    display: inline-block;
+    width:49%;
+}
+
+.score.score1{
+    text-align: right;
+}
+.score.score2{
+    text-align: left;
+}
+
+.teamScore{
+    margin: 0 20px;
+}
